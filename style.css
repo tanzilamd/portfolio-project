@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0  ;
+}
+p{
+    color: gray;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    width: 100%;
+}
+#name{
+    color:#EB4B79;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+    
+}
+.half-width img{
+    width:100%;
+}
+.header{
+    background-image:url(images/header-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    height: 720px;
+    padding-top: 3%;
+    
+}
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #EB4B79;
+    background: #EB4B79;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 720px;
+    padding-top: 3%;
+    margin-top: 5%;
+}
