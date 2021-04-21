@@ -55,7 +55,6 @@ img{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position:left;
-    background-attachment: fixed;
     height: 720px;
     padding-top: 3%;
 }
@@ -73,12 +72,15 @@ img{
     text-align: center;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
-    height: 720px;
-    
+    background-position: center;
+    height: 720px;   
+}
+.bottom-section-all{
+    width: 40%;
+    margin: auto;
 }
 .bottom-section-all q{
-    width: 50px;
+    width: 40%;
 }
 .bottom-email{
     text-decoration: none;
@@ -86,4 +88,22 @@ img{
     border: 1px solid #EC4A71;
     border-radius: 5px;
     padding: 10px 20px;
+}
+.bottom-email a{
+    text-decoration: none;
+    color: white;
+}
+#leave-messege{
+
+}
+#mail-add{
+    font-size:30px;
+    font-weight: 700;
+    
+}
+footer{
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    font-size: 15px;
 }
